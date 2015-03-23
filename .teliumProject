@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?teliumProject version="3.0"?>
+
+<?ingedev version="7.22.2.1"?>
+
+<projectDescription activeConfig="GNU_ARM_DEBUG" enableUsingCpp="true" projectType="LIB">
+<virtualFolders>
+<virtualFolder name="Other Files" sources="false">
+</virtualFolder>
+<virtualFolder name="Source Files" sources="true">
+<file generated="false" name="google\protobuf\stubs\strutil.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\stubs\substitute.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\descriptor.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\descriptor.pb.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\descriptor_database.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\dynamic_message.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\extension_set_heavy.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\generated_message_reflection.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\message.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\reflection_ops.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\service.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\text_format.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\unknown_field_set.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\wire_format.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\io\gzip_stream.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\io\zero_copy_stream_impl.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\io\tokenizer.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\io\strtod.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\io\printer.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\compiler\importer.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\compiler\parser.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\stubs\common.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\wire_format_lite.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\io\coded_stream.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\io\zero_copy_stream.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\message_lite.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\stubs\once.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\generated_message_util.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\stubs\stringprintf.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\io\zero_copy_stream_impl_lite.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\extension_set.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\repeated_field.cc" parentProject=""/>
+<file generated="false" name="google\protobuf\stubs\structurally_valid.cc" parentProject=""/>
+<file generated="false" name="net\rpc\proto_test.cc" parentProject="rhino"/>
+</virtualFolder>
+<archiveFilesVirtualFolder name="Archive Files"/>
+</virtualFolders>
+<exportedHeaders>
+<exportedHeader name="ExpInc"/>
+</exportedHeaders>
+<configs>
+<config binaryName="protobuf" compiler="gnuArm4" compilerCustomOpt="-std=c++0x -U__STRICT_ANSI__" cpuMode="thumb" crc="false" enableCPPExceptions="false" gnu4StackProtectionMode="ProPolice" gnuOptim="-O0" name="GNU_ARM_DEBUG" sign="false" zip="false">
+<userIncs>
+<userInc value="${appli_current_config_toolchain_root_location}/include/c++/4.3.4"/>
+<userInc value="${workspace_loc:/rhino/net/generated_sources}"/>
+<userInc value="${appli_current_config_toolchain_root_location}/include/c++/4.3.4/arm-elf"/>
+<userInc value="${appli_current_config_toolchain_root_location}/include/c++/4.3.4/backward"/>
+<userInc value="${workspace_loc:/protobuf}"/>
+<userInc value="${appli_current_config_toolchain_root_location}/lib/gcc/arm-elf/4.3.4/include"/>
+</userIncs>
+<userDefines>
+<userDefine value="_ING_APPLI_BINARY_NAME=&quot;${appli_binary_name}&quot;"/>
+<userDefine value="_ING_APPLI_CURRENT_CONFIG_NAME=&quot;${appli_current_config_name}&quot;"/>
+<userDefine value="_ING_APPLI_FULL_BINARY_NAME=&quot;${appli_full_binary_name}&quot;"/>
+<userDefine value="__linux__"/>
+</userDefines>
+<dataFiles/>
+<teliumCompatibilities/>
+<prebuild command="" description=""/>
+<externalSchemes/>
+<postbuild command="" description=""/>
+</config>
+<config binaryName="protobuf" compiler="gnuArm4" compilerCustomOpt="" cpuMode="thumb" enableCPPExceptions="false" gnu4StackProtectionMode="ProPolice" gnuOptim="-Os" name="GNU_ARM_RELEASE">
+<userIncs>
+<userInc value="Inc"/>
+<userInc value="ExpInc"/>
+</userIncs>
+<userDefines>
+<userDefine value="_ING_APPLI_BINARY_NAME=&quot;${appli_binary_name}&quot;"/>
+<userDefine value="_ING_APPLI_CURRENT_CONFIG_NAME=&quot;${appli_current_config_name}&quot;"/>
+<userDefine value="_ING_APPLI_FULL_BINARY_NAME=&quot;${appli_full_binary_name}&quot;"/>
+</userDefines>
+<prebuild/>
+<postbuild/>
+</config>
+</configs>
+<groupConfigs/>
+</projectDescription>
